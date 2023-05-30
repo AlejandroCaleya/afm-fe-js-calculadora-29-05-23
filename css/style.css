@@ -1,85 +1,88 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  button {
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
-    border: none;
-    margin: 2px;
-    font-size: 30px;
-    font-weight: 250;
-  }
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  border: none;
+  margin: 2px;
+  font-size: 30px;
+  font-weight: 250;
+}
 
 button:hover {
   cursor: pointer;
 }
 
+.input {
+  margin-left: 5.4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: none;
+  width: 250px;
+  font-size: 50px;
+  text-align: right;
+  background-color: black;
+  color: white;
+  font-weight: 100;
+}
 
-  .input{
-    border:none;
-    width: 250px;
-    height: 50px;
-    font-size: 50px;
-    text-align: right;
-    background-color: black;
-    color: white;
-    font-weight: 100;
-    max
-  }
-  
-  .ceroButton {
-    width: 100%;
-    text-align: left;
-    padding-left: 25px;
-  }
-  
-  .lightButton {
-    background-color: #a6a6a6;
-    color: black;
-  }
-  
-  .darkButton {
-    background-color: #333333;
-    color: white;
-  }
-  
-  .acentButton {
-    background-color: #ff9501;
-    color: white;
-  }
+.ceroButton {
+  width: 100%;
+  text-align: left;
+  padding-left: 25px;
+}
 
-  .acent2Button {
-    background-color: #7f5213;
-    color: white;
-  }
-  
-  body {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    background-color: black;
-  }
-  
-  .input {
-    border: none;
-    width: 250px;
-    font-size: 50px;
-    text-align: right;
-    background-color: black;
-    color: white;
-    font-weight: 200;
-  }
-  
-  ::-webkit-input-placeholder {
-    color: white;
-  }
+.lightButton {
+  background-color: #a6a6a6;
+  color: black;
+}
 
-  #memori {
-    font-size: 70%;
-    color: black;
-  }
+.darkButton {
+  background-color: #333333;
+  color: white;
+}
+
+.acentButton {
+  background-color: #ff9501;
+  color: white;
+}
+
+.acent2Button {
+  background-color: #7f5213;
+  color: white;
+}
+
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: black;
+}
+
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+#M {
+  font-size: 75%;
+  margin-left: 18px;
+}
+
+
+#M:hover {
+  cursor: default;
+}
+
+table {
+  border: 1px solid;
+  border-radius: 20px;
+  box-shadow: 2px 1px 3px 5px #C0C0C0;
+  padding: 5px;
+}

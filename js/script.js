@@ -1,6 +1,6 @@
 let temporal = 0;
 let operacion = '';
-// let memori = 0;
+let memori = 0;
 var input = document.getElementById('inputID');
 
 function add(num) {
@@ -64,16 +64,17 @@ function cleanInput() {
 
 function memoriReset() {
     memori = 0;
-    
+    let M = document.getElementById('M');
+    M.style.color = '';
     // input.style.border= "none";
 }
 
 function memoriSigno(signo) {
     memori = eval(memori + signo + input.value);
     if (memori !== 0) {
-        M.style.color = 'red';
+      let M = document.getElementById('M');
+      M.style.color = 'red';
     }
-
 }
 
 function memoriRecall() {
